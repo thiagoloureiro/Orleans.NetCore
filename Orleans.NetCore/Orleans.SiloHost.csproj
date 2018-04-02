@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.Orleans.Transactions" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Orleans.ConverterContracts\Orleans.ConverterContracts.csproj" />
+    <ProjectReference Include="..\Orleans.ConverterGrain\Orleans.ConverterGrain.csproj" />
+  </ItemGroup>
+
 </Project>
